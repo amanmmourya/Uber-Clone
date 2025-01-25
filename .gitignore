@@ -2,4 +2,4 @@
 /Uber-backend/node_modules
 /Uber/node_modules
 # gitignore
-*.env
+.env
