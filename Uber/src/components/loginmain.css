@@ -1,0 +1,68 @@
+.formdiv{
+    height: 70vh;
+}
+.formdiv-1{
+    height: 90vh;
+}
+.riderform{
+    display: flex;
+
+}
+.username,.mobileNop{
+    height: 50px;
+    border: 2px solid rgb(159, 158, 158);
+    border-radius: 10px;
+    font-size: larger;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+.username:active,.mobileNop:active{
+    box-shadow: 0px 0px 10px 5px rgba(180, 179, 179, 0.6);
+    border: 2px solid rgb(227, 226, 226);
+   
+}
+.password{
+    height: 50px;
+    border: 2px solid rgb(159, 158, 158);
+    border-radius: 10px;
+    font-size: larger;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+.password:active{
+    box-shadow: 0px 0px 10px 5px rgba(180, 179, 179, 0.6);
+    border: 2px solid rgb(227, 226, 226); 
+}
+.mainformarea{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+}
+.submitbtn{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+.submitbtn:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 10px 5px rgb(188, 186, 186,0.4);
+}
+.mobileNo,.vehicleId,.vehicleType,.driverName1{
+    height: 50px;
+    border: 2px solid rgb(159, 158, 158);
+    border-radius: 10px;
+    font-size: larger;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+.mobileNo:active,.vehicleId:active,.vehicleType:active,.driverName1:active{
+    box-shadow: 0px 0px 10px 5px rgba(180, 179, 179, 0.6);
+    border: 2px solid rgb(227, 226, 226);
+}
+.mainformarea-1{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+}

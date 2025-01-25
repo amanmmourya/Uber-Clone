@@ -1,0 +1,89 @@
+.head{
+    border-radius: 15px;
+}
+.imageinfo{
+background-image: url('../../assets/img/uberimg.webp');
+background-size: contain;
+border-radius: 5px;
+margin-left: 10px;
+}
+.image-auto{
+    background-image: url('../../assets/img/driver.jpg');
+    background-size: contain;
+    border-radius: 50%;
+    
+}
+.image-mob{
+    background-image: url('../../assets/img/mobile.jpg');
+    background-size: contain;
+}
+.agent-btn{
+    background-image: url('../../assets/img/ai.avif');
+    background-size: contain;
+    position: sticky;
+    bottom: 5px;
+    left: 5px;
+}
+.agent-btn:hover{
+    transform: scale(1.01);
+    cursor: pointer;
+}
+.agent-main{
+    position: sticky;
+    height: 600px;
+    width: 400px;
+    bottom: 10px;
+    left: 40px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 15px;
+}
+.logo-agent{
+    background-image: url('../../assets/img/cai.png');
+    background-size: contain;
+}
+.cross{
+    background-image: url('../../assets/img/cross.png');
+    background-size: contain;
+}
+.cross:hover{
+    box-shadow: 5px 5px 10px rgb(164, 164, 164,0.4);
+    border-radius: 10px;
+}
+
+@keyframes smoothArrival{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+
+.main-agent-container{
+    animation: smoothArrival 1s ease-in-out;
+}
+.insights{
+    height:400px;
+    background-color: #F3F3F4;
+    overflow-y: auto;
+}
+.textarea-agent{
+    height: 80px;
+}
+.agent-message{
+    border: 1px solid black;
+    background-color: #efedeb;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.img-head{
+    background-image: url('../../assets/img/gem.jpg');
+    background-size: contain;
+    border-radius: 5px;
+}
+.submit-agent{
+    background-image: url('../../assets/img/send.png');
+    background-size: contain;
+}

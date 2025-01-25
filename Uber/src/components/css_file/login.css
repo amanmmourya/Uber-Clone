@@ -1,0 +1,13 @@
+.image{
+    background-image: url('../../assets/img/image.png');
+    background-size: contain;
+}
+.driver:hover{
+    box-shadow: 0px 0px 10px 5px rgb(94, 93, 93,0.5);
+    cursor: pointer;
+}   
+.rider:hover{
+    box-shadow: 0px 0px 10px 5px rgb(94, 93, 93,0.5);
+    cursor: pointer;
+
+}

@@ -1,0 +1,18 @@
+.immediateImg{
+    background-image: url('../../assets/img/ride.png');
+    background-size: cover;
+    border-top: 1px solid rgb(119, 119, 119);
+    border-bottom: 1px solid rgb(119, 119, 119);
+    border-right: 1px solid rgb(119, 119, 119);
+}
+.reserveImg{
+    background-image: url('../../assets/img/reserve_clock.png');
+    background-size: cover;
+    border-top: 1px solid rgb(119, 119, 119);
+    border-bottom: 1px solid rgb(119, 119, 119);
+    border-right: 1px solid rgb(119, 119, 119);
+}
+.detail:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 5px 2px rgb(119, 119, 119,0.5);
+}

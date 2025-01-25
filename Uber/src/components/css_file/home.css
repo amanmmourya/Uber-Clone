@@ -1,0 +1,30 @@
+.mainbox{
+    height: 80vh;
+}
+.navigation{
+    border: 2px solid rgb(84, 84, 84);
+    border-radius: 10px;
+    height: 50vh;
+    width: 20vw;
+    padding: 5px;
+}
+.mapbox{
+    width: 900px;
+    height: 650px;
+    border: 2px solid rgb(152, 152, 152);
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.item1{
+    background-image: url('../../assets/img/pickup.png');
+    background-size: contain;
+}
+.item2{
+    background-image: url('../../assets/img/dropoff.webp');
+    background-size: contain;
+}
+.item3{
+    background-image: url('../../assets/img/clock.png');
+    background-size: contain;
+}

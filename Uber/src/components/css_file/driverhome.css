@@ -1,0 +1,22 @@
+.mainbox1{
+    height: 70vh;
+    width: 99vw;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.requests{
+    height: 60vh;   
+    width: 70vw;
+    background-color: rgb(233, 221, 206);
+}
+.accept{
+    height: 30px;
+    width: 100px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
