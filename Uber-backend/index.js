@@ -51,8 +51,8 @@ class LangflowClient {
 // langflow agent
 
 async function callAgent(inputValue) {
-    const flowId = 'uber_project'; // Replace with your actual flow ID or name
-    const langflowId = '3e740dbf-e02f-4a3f-a60d-aba398f21b08'; // Replace with your actual LangFlow ID
+    const flowId = process.env.flowId; // Replace with your actual flow ID or name
+    const langflowId = process.env.langflowId; // Replace with your actual LangFlow ID
     const applicationToken = process.env.applicationToken
     
     const client = new LangflowClient('https://api.langflow.astra.datastax.com', applicationToken);
@@ -73,8 +73,8 @@ async function callAgent(inputValue) {
 }
 // Using langflow for distance and time fetch
 async function callAgentForDistance(inputValue) {
-    const flowId = 'uber_distance'; // Replace with your actual flow ID or name
-    const langflowId = '3e740dbf-e02f-4a3f-a60d-aba398f21b08'; // Replace with your actual LangFlow ID
+    const flowId = process.env.flowIdD; // Replace with your actual flow ID or name
+    const langflowId = process.env.langflowId; // Replace with your actual LangFlow ID
     const applicationToken = process.env.applicationToken
     
     const client = new LangflowClient('https://api.langflow.astra.datastax.com', applicationToken);

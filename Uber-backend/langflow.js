@@ -37,8 +37,8 @@ class LangflowClient {
 }
 
 async function main() {
-    const flowId = 'uber_project'; // Replace with your actual flow ID or name
-    const langflowId = '3e740dbf-e02f-4a3f-a60d-aba398f21b08'; // Replace with your actual LangFlow ID
+    const flowId = process.env.flowId; // Replace with your actual flow ID or name
+    const langflowId = process.env.langflowId; // Replace with your actual LangFlow ID
     const applicationToken = process.env.applicationToken
     const inputValue = "best places to visit in ahmedabad"; // Write your input message here
     const client = new LangflowClient('https://api.langflow.astra.datastax.com', applicationToken);
