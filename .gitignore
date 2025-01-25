@@ -1,3 +1,4 @@
 /node_modules
 /Uber-backend/node_modules
 /Uber/node_modules
+.env
