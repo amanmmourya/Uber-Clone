@@ -4,11 +4,10 @@ A basic Uber clone application built with React, Node.js, Express, MongoDB, Sock
 
 ## Features
 
-- **Passenger and Driver Authentication**: Secure login/signup system for both passengers and drivers.
 - **Real-Time Communication**: Implemented using Socket.io to connect passengers and drivers instantly.
 - **Ride Request System**: Passengers can request rides, and drivers can accept them.
-- **Responsive Design**: Tailored for mobile and desktop users with Tailwind CSS.
-- **Database Integration**: MongoDB is used to store user profiles, ride details, and transaction history.
+- **Responsive Design**: Tailored desktop users with Tailwind CSS.
+- **Database Integration**: MongoDB is used to store user profiles and ride details.
 
 ## Tech Stack
 
