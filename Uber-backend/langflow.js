@@ -1,4 +1,6 @@
 // Replace **<YOUR_APPLICATION_TOKEN>** with your actual Application token
+import dotenv from 'dotenv'
+dotenv.config()
 class LangflowClient {
     constructor(baseURL, applicationToken) {
         this.baseURL = baseURL;
@@ -37,7 +39,7 @@ class LangflowClient {
 async function main() {
     const flowId = 'uber_project'; // Replace with your actual flow ID or name
     const langflowId = '3e740dbf-e02f-4a3f-a60d-aba398f21b08'; // Replace with your actual LangFlow ID
-    const applicationToken = 'AstraCS:bjMoQZxJbtgwdShAhxRqrWdW:538c855d2c2d04b5684d22367e98e275f496d554d677c51f5906a665489fdb4f'; // Replace with your actual token
+    const applicationToken = process.env.applicationToken
     const inputValue = "best places to visit in ahmedabad"; // Write your input message here
     const client = new LangflowClient('https://api.langflow.astra.datastax.com', applicationToken);
 

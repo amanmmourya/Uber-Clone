@@ -4,6 +4,8 @@ import mongoose from 'mongoose'
 import allVehicles from './Schema/allVehicles.js'
 import allDrivers  from './Schema/allDrivers.js'
 import driverSockets from './Schema/driverSockets.js'
+import dotenv from 'dotenv'
+dotenv.config()
 await mongoose.connect('mongodb://127.0.0.1:27017/uberDatabase',{
     useNewUrlParser: true,
     useUnifiedTopology: true
@@ -51,7 +53,7 @@ class LangflowClient {
 async function callAgent(inputValue) {
     const flowId = 'uber_project'; // Replace with your actual flow ID or name
     const langflowId = '3e740dbf-e02f-4a3f-a60d-aba398f21b08'; // Replace with your actual LangFlow ID
-    const applicationToken = 'AstraCS:bjMoQZxJbtgwdShAhxRqrWdW:538c855d2c2d04b5684d22367e98e275f496d554d677c51f5906a665489fdb4f'; // Replace with your actual token
+    const applicationToken = process.env.applicationToken
     
     const client = new LangflowClient('https://api.langflow.astra.datastax.com', applicationToken);
 
@@ -73,7 +75,7 @@ async function callAgent(inputValue) {
 async function callAgentForDistance(inputValue) {
     const flowId = 'uber_distance'; // Replace with your actual flow ID or name
     const langflowId = '3e740dbf-e02f-4a3f-a60d-aba398f21b08'; // Replace with your actual LangFlow ID
-    const applicationToken = 'AstraCS:fvBrfdtNjWcKpHWYqCENJCIT:8a8bd277ef97057caa78e0c3b9105b4de536c313cb54b2b6ce65c826ad49d468'; // Replace with your actual token
+    const applicationToken = process.env.applicationToken
     
     const client = new LangflowClient('https://api.langflow.astra.datastax.com', applicationToken);
 
