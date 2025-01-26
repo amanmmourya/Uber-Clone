@@ -8,6 +8,8 @@ A basic Uber clone application built with React, Node.js, Express, MongoDB, Sock
 - **Ride Request System**: Passengers can request rides, and drivers can accept them.
 - **Responsive Design**: Tailored desktop users with Tailwind CSS.
 - **Database Integration**: MongoDB is used to store user profiles and ride details.
+- **AI Travel Assistance**: Integrated with LangFlow and OpenAI to guide users by suggesting travel-related queries and optimizing the user experience.
+- **Travel Estimation**: Uses AI to estimate the distance and travel time for requested routes.
 
 ## Tech Stack
 
@@ -15,6 +17,7 @@ A basic Uber clone application built with React, Node.js, Express, MongoDB, Sock
 - **Backend**: Node.js, Express
 - **Database**: MongoDB
 - **Real-Time Communication**: Socket.io
+- **AI Integration**: LangFlow, OpenAI
 
 ## Installation
 
